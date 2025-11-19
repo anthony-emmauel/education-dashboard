@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Academic Results Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- Top summary card -->
+      <section class="container">
+        <article class="card header-card">
+          <div class="header-left">
+            <div class="header-icon">🎓</div>
+            <div class="header-text">
+              <p class="header-title">Academic Results Dashboard</p>
+              <p class="meta-line">
+                <span class="meta-label">Student:</span>
+                Sarah Johnson
+              </p>
+              <p class="meta-line">
+                <span class="meta-label">ID:</span>
+                STU-2024-1847
+              </p>
+              <p class="meta-line">
+                <span class="meta-label">Semester:</span>
+                Fall 2024
+              </p>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <p class="overall-label">Overall Average</p>
+            <p class="overall-score">
+              88.50<span class="overall-unit">%</span>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Subject grades -->
+      <section class="container">
+        <article class="card grades-card">
+          <header class="section-header">
+            <h2>Subject Grades</h2>
+            <p class="text-muted small">
+              Detailed breakdown of grades by subject
+            </p>
+          </header>
+
+          <div class="table-wrapper">
+            <table class="grades-table">
+              <thead>
+                <tr>
+                  <th>Subject</th>
+                  <th>Credits</th>
+                  <th>Grade (%)</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mathematics</td>
+                  <td>4</td>
+                  <td class="grade grade-high">92</td>
+                  <td><span class="badge badge-excellent">Excellent</span></td>
+                </tr>
+                <tr>
+                  <td>Physics</td>
+                  <td>4</td>
+                  <td class="grade grade-good">88</td>
+                  <td><span class="badge badge-good">Good</span></td>
+                </tr>
+                <tr>
+                  <td>Chemistry</td>
+                  <td>3</td>
+                  <td class="grade grade-good">85</td>
+                  <td><span class="badge badge-good">Good</span></td>
+                </tr>
+                <tr>
+                  <td>English Literature</td>
+                  <td>3</td>
+                  <td class="grade grade-high">94</td>
+                  <td><span class="badge badge-excellent">Excellent</span></td>
+                </tr>
+                <tr>
+                  <td>Computer Science</td>
+                  <td>4</td>
+                  <td class="grade grade-high">96</td>
+                  <td><span class="badge badge-excellent">Excellent</span></td>
+                </tr>
+                <tr>
+                  <td>History</td>
+                  <td>3</td>
+                  <td class="grade grade-average">78</td>
+                  <td><span class="badge badge-average">Average</span></td>
+                </tr>
+                <tr>
+                  <td>Biology</td>
+                  <td>3</td>
+                  <td class="grade grade-good">82</td>
+                  <td><span class="badge badge-good">Good</span></td>
+                </tr>
+                <tr>
+                  <td>Physical Education</td>
+                  <td>2</td>
+                  <td class="grade grade-high">90</td>
+                  <td><span class="badge badge-excellent">Excellent</span></td>
+                </tr>
+                <tr class="row-total">
+                  <td>Total</td>
+                  <td>26</td>
+                  <td class="grade grade-overall">88.50</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <!-- Performance summary -->
+      <section class="container summary-section">
+        <header class="section-header">
+          <h2>Performance Summary</h2>
+          <p class="text-muted small">Key insights and achievements</p>
+        </header>
+
+        <div class="summary-grid">
+          <!-- Overall Performance -->
+          <article class="summary-card summary-overall">
+            <header class="summary-header">
+              <div class="summary-icon circle-blue">📊</div>
+              <h3>Overall Performance</h3>
+            </header>
+            <p class="summary-tag summary-tag-good">Good</p>
+            <p class="summary-text">
+              Strong academic performance with a
+              <strong>88.50%</strong> average.
+            </p>
+          </article>
+
+          <!-- Strengths -->
+          <article class="summary-card summary-strengths">
+            <header class="summary-header">
+              <div class="summary-icon circle-green">📈</div>
+              <h3>Strengths</h3>
+            </header>
+            <p class="summary-tag summary-tag-excellent">
+              4 Subjects Excellent
+            </p>
+            <p class="summary-text">
+              Excelling in <strong>4 out of 8</strong> subjects. Top performers
+              include Mathematics and English Literature.
+            </p>
+          </article>
+
+          <!-- Focus Areas -->
+          <article class="summary-card summary-focus">
+            <header class="summary-header">
+              <div class="summary-icon circle-amber">🎯</div>
+              <h3>Focus Areas</h3>
+            </header>
+            <p class="summary-tag summary-tag-average">1 Subject to Improve</p>
+            <p class="summary-text">
+              Focus on <strong>History</strong> to enhance overall performance.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
